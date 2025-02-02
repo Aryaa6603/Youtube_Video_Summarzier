@@ -1,0 +1,448 @@
+so the the core issue that you know most
+organizations are struggling with is
+simply there's a lot to do right I'd say
+more than more than ever which is kind
+of corny but it it's simply the truth um
+you know you're likely working on some
+sort of major architectur
+refactor um you're trying to release you
+know the next big best of breed you know
+Cloud application
+um you're probably adopting new internal
+Technologies yourself there's just a ton
+to do and the question becomes like well
+how how does your work on
+notifications either combine with that
+assist with that or we would say
+probably detract from that in in some
+ways so the the the way that I say that
+it's a detractors because notifications
+again have have grown GR in the shadows
+without a ton of oversight right and
+this is what I was talking about earlier
+where today it's it's like every feature
+or every product just needs
+notifications that's the way it is so
+because they're table Stakes they've
+exploded with either the number of
+components you have in your application
+or the applications yourself again
+relatively easy things to set up uh
+initially so you have all these
+disconnect connected teams depending on
+your company spread across different
+geographies and projects that are
+creating these notifications and
+silos the complexity and the the
+disconnection only increases when you
+start to pull in things like okay email
+Isn't Enough we want SMS and we want
+Push then on top of that you have okay
+well we need to provide some better
+features here because users are
+demanding it need to be able to select
+from a a rich choice of
+preferences uh including things like
+when they want the notification
+delivered to them etc etc so it begins
+to build and build and build then again
+you you all this culminates in this
+really inefficient collaboration where
+you're going back and forth and back and
+forth on you know improving or creating
+a single notification and then all
+combined it's like you don't even know
+what exists out there today so it's
+impossible to have any cohesive strategy
+when it comes to Notifications
+themselves so we refer to this
+internally as notification chaos right
+um and at the end of the day what it is
+it's just a re really friction Rich
+environment between not only product and
+Engineering but really between the
+applications some themselves because
+they have these notifications that were
+that were built by different teams under
+different methodologies crammed into one
+single space they're really expensive to
+maintain um and they're really brittle
+right so going back to to kind of what
+we talked about briefly earlier is this
+concept of I'm putting out this product
+or this
+feature I have to have notifications
+every everyone's expecting it so okay I
+just build it right um and it's fairly
+easy to stand up a simple email or even
+add email and
+SMS the problem that we see a lot of
+companies and teams run into is really
+this so once you have this culmination
+of uh not only different types of
+channels but also the different
+requirements which are preferences or
+you know some sort of localization type
+type object Ive um it becomes too much
+and you start looking at options uh for
+either rebuilding the whole thing under
+a unified system um or quite often
+looking for Solutions like novu so to to
+put a bow around it you come to this
+decision where it's do we treat our
+notifications as just this thing that we
+have to have because everyone wants it
+um
+or do we invest a lot in it which
+ultimately means I mean let's be frank
+here right
+notifications are not the core aim of
+most companies right they're the core
+aim of novu but for most companies
+you're are you're not a
+notification uh product right
+notifications are ancillary to your
+product they are a feature um so you
+have to divert and and distract your
+engineering effort
+away from cool new things that you could
+be building into your to your app
+itself right
+so the way this kind of crystallizes for
+a lot of the companies we talk to
+is you you don't choose to build unless
+you're very unique uh your own building
+system or your own customer data
+platform or authentication you you
+choose from what's already out there
+right there are great companies that
+have already done this and we look at um
+novu in the same way so why why build uh
+stripe when it already exists why build
+a notification platform when noou
+exists so I think this is as we start to
+talk about the new release and and novu
+in 2024 this is where it starts to
+become extremely
+interesting um
+and why that is is before this release
+youve we really only had two
+options option one is I'm going to build
+this whole thing myself uh I'm going to
+DIY it I'm going to set aside you know a
+couple Engineers or an engineering team
+and we're going to build out our own
+notification framework and
+platform the other option is there are
+other vendors noou isn't alone I mean
+this is this is a big problem that that
+most of you are struggling with um so
+there are off-the-shelf solutions that
+that you can adopt right when we go back
+to the the do-it-yourself approach the
+benefits to that are awesome right you
+have total
+flexibility um as you would expect
+because you're building each component
+yourself and in the same vein you can
+interact with all of your local data all
+of your systems that sit inside of
+inside of your uh your domain again
+because you own this thing you're
+building it the downsides to this
+approach are kind of the same right
+you're building the thing so as we
+talked about you're going to need an
+engineering team to do it um typically
+it's not going to satisfy the you know
+the the less technical users that might
+be involved in the process um creating
+that friction we talked about earlier
+and then you have to maintain this thing
+um and I think you know that's software
+Dev 101 of like the maintenance usually
+ends up taking you way more time and
+being more of a headache than building
+the the product
+itself um then you look at the offthe
+shelf or commercially available
+Solutions benefits to that
+are really easy to use for non-technical
+personas most of them have been built
+specifically you know spun out of like a
+a marketing automation tool almost um
+you're going to have all the features
+that that you need because again you
+have a company building this thing for
+you and you're gonna have relatively you
+know both low infrastructure
+requirements because they're hosted and
+you're not going to have to build a a
+ton of things yourself the downsides to
+that are I mean what you see is what
+you're going to get um this was built
+for essentially everyone which almost
+means it was built for for no one
+specific it's not going to to fit your
+company or your use cases uh one to one
+you're going to have to make some some
+tradeoffs um and then you really don't
+have a solution that that fits within
+either role um it's not going to be 100%
+you know non or less technical it's of
+course not going to be 100% Dev um
+everyone is going to have some sort of
+friction point in using it what's
+interesting and you know we think
+extremely revolutionary even if you will
+about this new release with noou is
+we're actually sitting somewhere in the
+middle um and that's a lot of what this
+this code first approach allows you
+maintain the the flexibility that you
+get with the DIY solution and the
+ability to to interact and hydrate local
+data because the code for your
+notifications is going to live inside of
+your environment inside of your existing
+code base um but ultimately what you're
+creating what the product is allowing is
+this you know web Studio which you'll
+see in a moment um that's you know very
+slick and usable by someone who just
+needs to go in and you know modify a
+notification or view the the impact or
+um impact or progress of them and then
+of course as you'd expect we're building
+all the features for you you don't have
+to worry about that like that is our
+core competency alongside infrastructure
+you don't have to worry about scale you
+don't have to worry about setting up
+queuing systems and things like that to
+make sure that you're performant and um
+you know scalable those are things that
+we handle for you so this is what we're
+really excited about and and and frankly
+we we we almost wish we did it earlier
+but it's still kind of a head scratcher
+that um others haven't taken this
+approach yet so so yeah definitely want
+to show you a little bit about what Ryan
+just talked through I'm really sort of
+narrowing in on
+the um the concept of this hybrid
+approach to having both an engineering
+Focus but also enabling um product in in
+other non-engineering resources to
+utilize a solution so as Ryan mentioned
+we have this amazing what we call our
+local Studio this studio is able to be
+presented based off of how the what we
+call workflows are are architected from
+a engineering perspective so those
+workflows will be built out in your
+codebase and this is actually um a
+Express web application server or excuse
+me uh nextjs
+web application server use case here but
+we support other similar Frameworks like
+Express remix spelt um so it's really
+just building this like sort of static
+but also interactive um Dev Studio that
+people can interact with um based off of
+how those workflows are architected from
+an engineering
+perspective so you'll see across the
+left here I have four different sort of
+use cases
+um each workflow has what we call steps
+that are associated with it steps can be
+channels they can be an email they can
+be a push an SMS and an app notification
+and then steps also include um what we
+call Action items as well so it can be a
+digest or a delay too so in this use
+case um I'll show here we have a an
+email template so this email exist in
+your
+codebase um and I'll jump to the code
+side of things here shortly but this
+email I is is scaffolded it's it's the
+the structure of it is built out in your
+codebase and as you see here on the left
+or excuse me on the right these step
+controls these are the the values the
+the the interactive data that product
+and other non-engineering folks can
+interact with so just sort of Imagine a
+scenario where you've you've templated
+an email maybe has a couple different
+logos that you want to um interact with
+in this case from an engineering
+perspective I've exposed those logos
+that have been approved I can toggle
+between those and sort of choose if that
+makes sense to me I can interact with
+the text as
+well in real time this is being rendered
+on the express side and then the return
+of that is this compiled HTML in this
+case for the email use cases um and in
+addition to this I can you know a lot of
+emails are going to have buttons they
+may have dividers they may have sections
+that are included as well um I can
+choose to either expose that button or
+to to keep it hidden um I can influence
+what the text of that button is so it's
+really um up to you
+to Define what those inputs or what
+those controls are going to look like
+and how you can interact with them um in
+this Dev Studio
+experience um so as I had mentioned
+earlier as well there are these non um
+Channel steps too so with a delay maybe
+I want to send sort of like a weekly
+email um you can also expose those
+controls too so if at any point in time
+you want to update the frequency of this
+you have that full flexibility and
+functionality to do that um so this
+isn't just geared towards you know
+emails is the main sort of Channel we
+also have um you know the push
+notifications that are here too that you
+can just the same way you can interact
+with those step controls um the SMS too
+so it's really that full Suite endtoend
+um workflow building that you can do
+from a programmatic perspective expose
+that on the front end through this this
+studio experience and then once the
+studio is you know once you're happy
+with with what it looks like in there we
+do have a synchronization process from
+you know your local instance or from a
+hosted application that you have running
+um pushing to the noou cloud
+itself so that's you know many different
+use cases it's really easy to build
+these out um I will sort of briefly walk
+through um what some of that code setup
+looks like and then we can um sort of
+take it from there yeah as one of the
+first use cases I showed was an email
+template um from a programmatic
+perspective this use case is um a react
+email use case so you'll see that I'm
+importing these react email components
+um so just sort of like imagine that
+you're already using it doesn't have to
+be react email it can be MGM or MJM it
+can be any other email sort of generator
+that you use internally um really the
+only thing that I'm doing from like a
+new code perspective is
+introducing um in this case with the
+react it's these different sort of props
+that are defining what the controls
+are and so I already have the the the
+react email HTML set up here and really
+all I'm doing is exposing those those
+control props um within the code itself
+and so that I know that these are going
+to be fields that I'm exposing to the
+endusers in the studio experience so
+that they can add whatever relevant
+content needs to be
+there and so really all I'm doing at
+that point is is
+exporting this this rendered HTML as a
+function and ultimately bringing it
+into um what we call that workflow so
+the workflows that I showed you across
+the leand side of the the studio um
+those are this is where you're going to
+Define how those workflows are set
+up so at the top here you'll see we do
+have this the this this novu SDK this
+framework SDK where you're going to
+import the workflow the workflow is that
+defined function that we have that
+essentially allows you to build out the
+different steps that are associated with
+it so remember I show the the channel
+type steps with email SMS push Etc and
+then also you can use those um those
+action type steps with digest and
+DeLay So in this case um
+you know everything's running async here
+um I'm passing in the step but also
+payload as well because all notification
+or or you can enable payloads to be sent
+with those workflow
+events so in this case I have a delay
+that's set up here I Define the name of
+that delay um in this case I want to
+expose those controls that I've defined
+um to be editable values within that
+delay
+and then same goes for email similar
+function structure but in this case I'm
+returning a subject as well as the body
+and so the body is that previous file
+email that I had showed that is that
+exported rendered function and then the
+controls as well as the payload that we
+defined there
+to and so from a control perspective
+and and as well as the payloads we we
+are able to define those through either
+a a Json schema or through Zod so those
+are two schemas that we're currently
+interacting with both are supported um
+Zod would be an approach where like type
+safety is very critical to you to where
+you would define those different schemas
+um within a separate file and then
+import those those constants as you see
+fit for for type safety um but you can
+also um as you see here I have this more
+of the Json schema which is actually
+those properties defined within the the
+um the confines of that workflow as
+well and so the great thing about this
+is that you know I as an engineer
+I'm not worrying about having to input
+like hardcoded text I'm not having to
+worry about making sure that I input the
+correct you know header image into the
+the email template I'm not worrying
+about like what the exact verbiage is
+that I had to use for an SMS push really
+all I'm doing is is building that
+scaffolding of what the the workflow um
+templates and channels need to be and
+then from there
+allowing
+the the people that are really going to
+be involved with making sure the end
+delivery is the way that it needs to
+look those are going to be the ones that
+are interacting with the the studio
+experience to make sure that um
+everything is set up correctly and so in
+the event like I don't have to have that
+back and forth with engineering to hey I
+need you to up update this text or I
+need you to um you know do any sort of
+other code change which would then have
+to go through you know Version Control
+approvals U push to to um you know
+through your
+sdlc so it's it's really enabling um
+that effective collaboration between the
+two parties without overwhelming either
+one
